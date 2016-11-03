@@ -4,7 +4,7 @@ This is a simple clickstream collector written in PHP. It can send clickstream (
 
 ## Usage
 
-First, paste the following javascript code to the page you would like to collect clickstream. See <a href="demo.php">demo.php</a> for more detail.
+First, paste the following code to the HTML page you would like to collect clickstream. See <a href="demo.php">demo.php</a> for more detail.
 
 
 ``` html
