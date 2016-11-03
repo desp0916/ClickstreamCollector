@@ -67,9 +67,9 @@ If you would like to see how it works, you can follow the instructions below to 
   1. Apache HTTPd 2.4.6
   2. PHP 5.4.16
   3. mod_php
-  4. php-rdkafka
+  4. [php-rdkafka](https://github.com/arnaud-lb/php-rdkafka)
   4. [librdkafka](https://github.com/edenhill/librdkafka) 9.x+
-  5. Kafka 0.9.0
+  5. [Kafka](https://kafka.apache.org/) 0.9.0
 
 ## Prepare Your Environment 
 
@@ -81,9 +81,7 @@ bin/kafka-topics.sh --create --zookeeper zkhost1:2181 --replication-factor 2 --p
 
 ### 2. Setup two name-based virtual hosts on Apache HTTPd.
 
-Assume your demo site's IP is ```192.168.0.1```, add the following line to ```/etc/hosts```.
-
-If you will browse the demo page from Windows, also remember add it to ```C:\Windows\System32\drivers\etc\hosts``` .
+Assume your demo site's IP is ```192.168.0.1```, add the following line to ```/etc/hosts```. If you will browse the demo page from Windows, also remember add it to ```C:\Windows\System32\drivers\etc\hosts``` .
 
 
 ```
