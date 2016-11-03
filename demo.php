@@ -22,7 +22,7 @@ $demo_host = $config['DEMO_HOST'];
     j.async = true;
     j.src = '//<?php echo $demo_host; ?>/0.0.1/collector.js?id=' + i + dl;
     f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'CC-CUSTOMER1');
+})(window, document, 'script', 'dataLayer', 'CC-WEB1');
 
 function genRandom(min, max, multiple) {
     return Math.floor(Math.random()*(max-min+1)+min) * multiple;
@@ -37,11 +37,10 @@ function genDataCnt() {
 }
 
 function runFunction(action) {
- // alert("here");
     var json = {
         "sysID": "aes3g",
         "logType": "ui",
-	"logTime": new Date().toISOString(),
+        "logTime": new Date().toISOString(),
         "apID": "lab",
         "functID": "click",
         "who": "demo-user",
