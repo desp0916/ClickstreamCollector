@@ -49,9 +49,9 @@ function runFunction(action) {
 
 ```
 
-A hidden iframe will be created when the page is loaded by a browser. If the user clicks the buttons on the page, the 'src' attribute of the iframe will be updated. 
+A hidden iframe will be created once the page is loaded by a browser. If the user clicks the buttons on the page, the 'src' attribute of the iframe will be updated. 
 
-The `src` might look like this:
+The value in the `src` might look like this:
 
 ```
 http://collector.yourdomain.com/collect?id=CC-WEB1&json={"sysID":"aes3g","logType":"ui","logTime":"2016-11-03T05:11:21.879Z","apID":"lab","functID":"click","who":"demo-user","at":"172.20.2.2","action":"add","result":true,"msg":"http://demo.yourdomain.com/","procTime":3000,"dataCnt":447}
