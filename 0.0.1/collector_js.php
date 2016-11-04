@@ -7,7 +7,7 @@
 
 header('Content-Type: application/javascript');
 
-if (isset($_GET['id']) && in_array($_GET['id'], $config['LC_IDS'])) {
+if (isset($_GET['id']) && in_array($_GET['id'], $config['CC_IDS'])) {
 	$id = $_GET['id'];
 	$host = $config['HOST'];
 ?>

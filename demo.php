@@ -5,10 +5,10 @@ $demo_host = $config['DEMO_HOST'];
 <html>
 <head>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-  <title>UI Log Collector (alpha) Demo</title>
+  <title>Clickstream Collector (alpha) Demo</title>
 </head>
 <body>
-<h1>UI Log Collector (alpha) Demo</h1>
+<h1>Clickstream Collector (alpha) Demo</h1>
 <script>
 (function(w, d, s, l, i) {
     w[l] = w[l] || [];
