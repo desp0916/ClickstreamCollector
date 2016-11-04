@@ -2,7 +2,7 @@
 
 This is a simple clickstream collector written in PHP. It can send clickstream (logs) into Kafka directly.
 
-## Usage
+## How it works?
 
 First, paste the following code to the HTML page you would like to collect clickstream. See <a href="demo.php">demo.php</a> for more detail.
 
