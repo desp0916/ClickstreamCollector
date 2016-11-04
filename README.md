@@ -1,6 +1,6 @@
 # PHP Clickstream Collector for Kafka
 
-This is a simple clickstream collector written in PHP. It can send clickstream (logs) into Kafka.
+This is a simple clickstream collector written in PHP. It can send clickstream (logs) into Kafka directly.
 
 ## Usage
 
@@ -57,7 +57,7 @@ The value in the `src` might look like this:
 http://collector.yourdomain.com/collect?id=CC-WEB1&json={"sysID":"aes3g","logType":"ui","logTime":"2016-11-03T05:11:21.879Z","apID":"lab","functID":"click","who":"demo-user","at":"172.20.2.2","action":"add","result":true,"msg":"http://demo.yourdomain.com/","procTime":3000,"dataCnt":447}
 ```
 
-That's why the collector can capture the clickstreams. The collector will parse the query string and parameters, then send the log (urlencoded JSON string) into Kafka.
+That's why the collector can capture the clickstreams. The collector will parse the query string and parameters, then send the log (urlencoded JSON string) into Kafka directly.
 
 If you would like to see how it works, you can follow the instructions below to setup your demo site.
 
